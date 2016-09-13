@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-katex-full",
+    "description": "Math typesetting using KaTex into GitBook",
+    "main": "index.js",
+    "version": "1.0.0",
+    "engines": {
+        "gitbook": ">=2.0.0"
+    },
+    "homepage": "https://github.com/zhangzq/gitbook-plugin-katex-full",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhangzq/gitbook-plugin-katex-full"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/zhangzq/gitbook-plugin-katex-full/issues"
+    },
+    "dependencies": {
+        "katex": ">=0.5.1"
+    },
+    "keywords": ["math", "latex"]
+}
