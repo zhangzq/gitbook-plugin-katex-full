@@ -48,7 +48,7 @@ module.exports = {
     // }
     hooks: {
         "page": function(section) {
-            section.content += '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>script>';
+            section.content += '<script src="//cdn.bootcss.com/mathjax/2.7.0-beta.0/MathJax.js"></script>';
 
             return section;
         }
